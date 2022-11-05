@@ -1,4 +1,4 @@
-# Ohjelmistotekniikka, harjoitustyö;  2022
+# Ohjelmistotekniikka, harjoitustyö
 
 ## Tehtävät
 
