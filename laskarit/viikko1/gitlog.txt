@@ -1,5 +1,5 @@
 commit e29d55ec89312153a6059f2e5cf35f7e5f15062b
-Author: Niklas Harju <niklas.harju@helsinki.fi>
+Author: Nik Harju <niklas.harju@helsinki.fi>
 Date:   Sat Nov 5 14:01:20 2022 +0200
 
     rm file2, file2 -> file22
