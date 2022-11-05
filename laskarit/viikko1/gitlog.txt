@@ -1,0 +1,113 @@
+commit e29d55ec89312153a6059f2e5cf35f7e5f15062b
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 14:01:20 2022 +0200
+
+    rm file2, file2 -> file22
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a1089d7ff50d41d9af376f6f28839eac80f60026
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:58:05 2022 +0200
+
+    tiedostoja/ file1 file2 file3 luotu
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 9cacdcae68855472c850a54046f8916616b8935b
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:45:01 2022 +0200
+
+    muutetaan eka.txt ja kolmas.txt
+
+ eka.txt    | 4 ++++
+ kolmas.txt | 2 +-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+commit 97dfad05f87b6f76f52755714a5913bd224670f5
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:43:45 2022 +0200
+
+    nimen muutos tiedosto.txt -> eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f33478cc621ec1eec6c7e7e1e10e03d9367033bf
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:42:52 2022 +0200
+
+    poista ja lisaa tiedosto.txt tekstia
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 02ee4dbc52f729266a419ae1b3253bcdb58dcff8
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:40:22 2022 +0200
+
+    poista ja lisaa tiedosto.txt tekstia
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b8594d3f5c99b0230ad11f80f35bd2ee6eee89c4
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:38:49 2022 +0200
+
+    tiedostoon kopioitu paljon tekstia
+
+ tiedosto.txt | 275 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 274 insertions(+), 1 deletion(-)
+
+commit 4bb366940cf3d9f58c72e72af9de542028fc3112
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:36:29 2022 +0200
+
+    stuff folder
+
+ stuff/readme.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 69d6243f710e6daccdcb22e2965b02bff064478c
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:35:50 2022 +0200
+
+    muutokset 2.txt 3.txt
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 474d237cfa881213cb080315169af10465099607
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:35:05 2022 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 7fda64fe498e8437b79bcfc6db5e61ca4002a6b0
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:33:55 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit fcde99adfdd52d3b9063095918f4c6193ebe69d2
+Author: Niklas Harju <niklas.harju@helsinki.fi>
+Date:   Sat Nov 5 13:32:50 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
