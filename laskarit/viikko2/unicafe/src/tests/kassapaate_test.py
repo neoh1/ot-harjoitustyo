@@ -1,5 +1,6 @@
 """
 Test kassapaate
+# ugly I know, but asked for
 """
 
 import unittest
@@ -74,4 +75,13 @@ class TestKassapaate(unittest.TestCase):
         # money in cashier not increased                     
         self.assertEqual(self.kassa.kassassa_rahaa, 100000)
 
+    def test_kortin_lataus(self):
+        self.kassa.lataa_rahaa_kortille(self.card, 1000)
+        self.assertEqual(self.kassa.kassassa_rahaa, 101000)
+        self.assertEqual(self.card.saldo, 2000)
 
+    def test_kortin_lataus_neg(self):
+        self.kassa.lataa_rahaa_kortille(self.card, -100)
+        # both cashier and card amount should not change
+        self.assertEqual(self.kassa.kassassa_rahaa, 100000)
+        self.assertEqual(self.card.saldo, 1000)
