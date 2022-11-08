@@ -10,3 +10,10 @@
 
 
 Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
+
+### Viikko2
+
+[maksukortti](laskarit/viikko2/maskukortti)
+[unicafe](laskarit/viikko2/unicafe)
+[unicafe cov report](laskarit/viikko2/cov_unicafe.png)
+
