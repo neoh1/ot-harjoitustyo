@@ -7,8 +7,7 @@ def main():
     kortti = Maksukortti(10000)
 
     unicafe_exactum.syo_edullisesti_kortilla(kortti)
-
-    print(unicafe_exactum.edulliset)
+    unicafe_exactum.syo_kateisella(1000, 240)
     print(kortti)
 
 
