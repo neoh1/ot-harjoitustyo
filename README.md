@@ -23,6 +23,6 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 [Monopoli-1](laskarit/viikko3/README.md)
 
-[Monopoli-2](laskarit/viikko3/README.md?plain=1#L28)
+[Monopoli-2](laskarit/viikko3/README.md?#tehtava-2-laajennettu-monopoli)
 
-[Sekvenssikaavio](laskarit/viikko3/README.md?plain=1#L105)
+[Sekvenssikaavio](laskarit/viikko3/README.md?#tehtava-3-sekvenssikaavio)
