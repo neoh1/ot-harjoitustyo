@@ -19,7 +19,7 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 [unicafe-cov-report](laskarit/viikko2/cov_unicafe.png)
 
-### Viikko2
+### Viikko3
 
 [Monopoli-1](laskarit/viikko3/README.md)
 
