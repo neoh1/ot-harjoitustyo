@@ -26,3 +26,6 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 [Monopoli-2](laskarit/viikko3/README.md?#tehtava-2-laajennettu-monopoli)
 
 [Sekvenssikaavio](laskarit/viikko3/README.md?#tehtava-3-sekvenssikaavio)
+
+[Laajempi-Sekvenssikaavio](laskarit/viikko3/README.md#tehtava-4-laajempi-sekvenssikaavio)
+
