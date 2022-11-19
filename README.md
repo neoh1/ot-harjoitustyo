@@ -21,4 +21,8 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 ### Viikko2
 
-[Monopoli-basic](laskarit/viikko3/README.md)
+[Monopoli-1](laskarit/viikko3/README.md)
+
+[Monopoli-2](laskarit/viikko3/README.md?plain=1#L28)
+
+[Sekvenssikaavio](laskarit/viikko3/README.md?plain=1#L105)
