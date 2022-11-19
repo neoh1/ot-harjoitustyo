@@ -101,3 +101,25 @@ classDiagram
   
 
 ```
+
+## Tehtava 3: Sekvenssikaavio
+
+```mermaid
+sequenceDiagram
+    Main ->> nMachine: new nMachine()
+    activate nMachine
+    nMachine ->> nFuelTank: new FuelTank()
+    nMachine ->> nFuelTank: tank fill(40)
+    nMachine ->> nEngine: new Engine(tank(40))
+    deactivate nMachine
+    Main ->> nMachine: drive()
+    activate nMachine
+    nMachine ->> nEngine: start()
+    activate nEngine
+    nEngine ->> nFuelTank: consume(5)
+    nEngine -->> nMachine: running=True
+    nMachine ->> nEngine: use_energy()
+    deactivate nMachine
+    nEngine ->> nFuelTank: consume(10)
+    deactivate nEngine
+```
