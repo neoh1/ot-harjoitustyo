@@ -13,7 +13,7 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 ### Viikko2
 
-[maksukortti](laskarit/viikko2/maskukortti)
+[maksukortti](laskarit/viikko2/maksukortti)
 
 [unicafe](laskarit/viikko2/unicafe)
 
@@ -29,3 +29,6 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 [Laajempi-Sekvenssikaavio](laskarit/viikko3/README.md#tehtava-4-laajempi-sekvenssikaavio)
 
+### App (Viikko2,3,...)
+
+[App](app/)
