@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "Uni project"
+authors = ["Niklas Harju <niklas.harju@helsinki.fi>"]
+license = "LGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+invoke = "^1.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+coverage = "^6.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
