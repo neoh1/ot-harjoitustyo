@@ -23,7 +23,7 @@ def create_connection(func):
                 result = func(curs, *args, **kwargs)
                 connection.commit()
         except Error as e:
-            logger.warning("Failed to read data from sqlite table from %s \n %s", user_db, e)
+            logger.warning("Failed to read data from sqlite table in %s \n %s", user_db, e)
         return result
 
     return _db_connect
@@ -104,8 +104,8 @@ def login(curs):
         login_success = check_pw(login_info)
     else:
         logger.info("Account not found for %s", user_name)
-        logger.info("Creating account a new account.")
-        new_password = input("Enter password for new account or press enter to quit: ")
+        logger.info("Creating a new account.")
+        new_password = input("Enter password for a new account or press enter to quit: ")
         if new_password:
             encrypted_pw = encrypt_pw(new_password)
             params = (user_name, encrypted_pw)
