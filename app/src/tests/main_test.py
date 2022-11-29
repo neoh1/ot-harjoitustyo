@@ -1,6 +1,6 @@
 from unittest import TestCase
 from unittest.mock import patch
-from main import encrypt_pw
+from app import encrypt_pw
 
 
 class TestMain(TestCase):
@@ -9,7 +9,7 @@ class TestMain(TestCase):
         ...
 
     # test user
-    @patch('main.create_connection', return_value=True)
+    @patch('app.create_connection', return_value=True)
     def test_create_connection(self, input):
         pass
 

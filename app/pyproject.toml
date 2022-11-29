@@ -7,8 +7,9 @@ license = "LGPL"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.12"
 invoke = "^1.7.3"
+pyside6 = "^6.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
