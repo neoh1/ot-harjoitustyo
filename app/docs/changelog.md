@@ -9,3 +9,6 @@
 - Initialize tests
 - Basic user database with encrypted passwords
 
+## Week 3
+- PySide research
+- Login screen design ready, needs implementation
