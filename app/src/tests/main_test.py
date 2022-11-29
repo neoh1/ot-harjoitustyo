@@ -2,8 +2,8 @@ from unittest import TestCase
 from unittest.mock import patch
 from main import encrypt_pw
 
-class TestMain(TestCase):
 
+class TestMain(TestCase):
 
     def setUp(self):
         ...
@@ -14,6 +14,5 @@ class TestMain(TestCase):
         pass
 
     def test_encrypt_pw_len(self):
-        self.assertEqual(len(encrypt_pw('passu')), 160, "Password len is not 160")
-
-    
+        self.assertEqual(len(encrypt_pw('passu')), 160,
+                         "Password len is not 160")

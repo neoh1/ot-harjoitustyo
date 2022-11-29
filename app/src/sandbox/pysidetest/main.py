@@ -6,7 +6,7 @@ from PySide6.QtWidgets import *
 
 from circular_progress import CircularProgress
 
-#GLOBALS
+# GLOBALS
 counter = 0
 
 

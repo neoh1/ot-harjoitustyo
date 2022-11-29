@@ -16,7 +16,7 @@ class CircularProgress(QWidget):
         self.progress_color = 0x8BD149  # light green GBR
         self.max_value = 100  # 100% progress
         self.font_family = "Segoe UI"
-        self.font_size = 24  #12
+        self.font_size = 24  # 12
         self.suffix = "%"
         self.text_color = 0x8BD149
 
@@ -41,7 +41,8 @@ class CircularProgress(QWidget):
         # rendering widget
         # PROGRESS PARAMETERS
         width = self.width - self.progress_width
-        height = self.height - self.progress_width  # -width makes sure line stays visible and isnt cut
+        # -width makes sure line stays visible and isnt cut
+        height = self.height - self.progress_width
         margin = self.progress_width / 2
         # link angle of progress bar with value hence divide by max_value 100
         value = self.value * 360 / self.max_value

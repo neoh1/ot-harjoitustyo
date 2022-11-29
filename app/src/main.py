@@ -7,30 +7,26 @@ import hashlib
 from sqlite3 import connect, Error
 import logging
 
-"""
-TODO: login own module, encrypt username?, refactor
-      logger make into config/own module
-"""
-
 
 def create_connection(func):
     """sqlite3 database wrapper"""
-    def _db_connect(user_db='src/data/users/users.db', *args, **kwargs):
+    def _db_connect(*args, user_db='src/data/users/users.db', **kwargs):
         result = None
         try:
             with connect(user_db) as connection:
                 curs = connection.cursor()
                 result = func(curs, *args, **kwargs)
                 connection.commit()
-        except Error as e:
-            logger.warning("Failed to read data from sqlite table in %s \n %s", user_db, e)
+        except Error as err:
+            logger.warning(
+                "Failed to read data from sqlite table in %s \n %s", user_db, err)
         return result
 
     return _db_connect
 
 
 @create_connection
-def init_users(curs):
+def init_users(curs=None):
     """Create table if it doesnt exist."""
     curs.execute("""
         CREATE TABLE IF NOT EXISTS People(
@@ -50,7 +46,8 @@ def encrypt_pw(password: str, salt=None) -> bytes:
     """
     if not salt:
         salt = os.urandom(32)
-    privkey = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100_000, dklen=128)
+    privkey = hashlib.pbkdf2_hmac(
+        'sha256', password.encode('utf-8'), salt, 100_000, dklen=128)
     full_key = salt + privkey
     return full_key
 
@@ -67,9 +64,8 @@ def check_pw(login_info):
         if encrypted_password == real_pw:
             logger.info("Authentication successful.")
             return True
-        else:
-            counter += 1
-            logger.info("Wrong password entered... %s times", counter)
+        counter += 1
+        logger.info("Wrong password entered... %s times", counter)
     return False
 
 
@@ -91,13 +87,14 @@ def get_username():
 
 
 @create_connection
-def login(curs):
+def login(curs=None):
     """
     Check if user exists.
     Return username and True if yes.
     """
     user_name = get_username()
-    login_info = curs.execute(f"SELECT * FROM People WHERE username = ?", (user_name,)).fetchone()
+    login_info = curs.execute(
+        "SELECT * FROM People WHERE username = ?", (user_name,)).fetchone()
     login_success = False
 
     if login_info:
@@ -105,7 +102,8 @@ def login(curs):
     else:
         logger.info("Account not found for %s", user_name)
         logger.info("Creating a new account.")
-        new_password = input("Enter password for a new account or press enter to quit: ")
+        new_password = input(
+            "Enter password for a new account or press enter to quit: ")
         if new_password:
             encrypted_pw = encrypt_pw(new_password)
             params = (user_name, encrypted_pw)
@@ -115,7 +113,7 @@ def login(curs):
 
 
 def main():
-    """ 
+    """
     0. Activate PySide GUI
     1. Login user
     2. Load sys stats
