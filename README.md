@@ -1,7 +1,10 @@
 # Ohjelmistotekniikka, harjoitustyö
 
-## Tehtävät
+## Harjoitustyö
 
+[Gradient Descender](app/)
+
+## Laskuharjoitukset
 ### Viikko1
 
 [gitlog.txt](laskarit/viikko1/gitlog.txt)
@@ -29,6 +32,3 @@ Sekä _markdown_ **testailua** <sub> README.md:ssä </sub>
 
 [Laajempi-Sekvenssikaavio](laskarit/viikko3/README.md#tehtava-4-laajempi-sekvenssikaavio)
 
-### App (Viikko2,3,...)
-
-[App](app/)
