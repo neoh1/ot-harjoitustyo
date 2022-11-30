@@ -11,6 +11,9 @@ or
 
 ## Docs
 [architecture](docs/architechture.md)
+
 [changelog](changelog.md)
+
 [requirementspecification](requirementspecification.md)
+
 [timemanagement](timemanagement.md)
