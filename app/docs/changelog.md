@@ -11,4 +11,4 @@
 
 ## Week 3
 - PySide research
-- Login screen design ready, needs implementation
+- Login screen design ready, done with Qt Designer. Needs implementation
