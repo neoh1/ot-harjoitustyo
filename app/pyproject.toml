@@ -7,9 +7,10 @@ license = "LGPL"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
+python = ">=3.8,<3.11"
 invoke = "^1.7.3"
-pyside6 = "^6.4.1"
+qt-pyqt-pyside-custom-widgets = "^0.6.3"
+pyside2 = "^5.15.2.1"
 
 
 [tool.poetry.group.dev.dependencies]

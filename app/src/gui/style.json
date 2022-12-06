@@ -1,0 +1,112 @@
+{
+    "QMainWindow": [
+        {
+            "tittle": "Gradient Descender",
+            "frameless": true,
+            "transluscentBg": true,
+            "sizeGrip": "sizeGrip",
+            "navigation": [
+                {
+                    "minimize": "minBtn",
+                    "close": "closeBtn",
+                    "restore": [
+                        {
+                            "buttonName": "restoreBtn",
+                            "normalIcon": ":/icons/square.svg",
+                            "maximizedIcon": ":/icons/copy.svg"
+                        }
+                    ],
+                    "moveWindow": "headerCont",
+                    "tittleBar": "headerCont"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "leftMenuCont",
+            "defaultSize": [
+                {
+                    "width": 48,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 48,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 110,
+                    "height": "parent"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuButton",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/icons/align-justify.svg",
+                            "whenMenuIsExpanded": ":/icons/chevron-left.svg"
+                        }
+                    ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 200,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "leftPopMenuCont",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 170,
+                    "height": "parent"
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 200,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ],
+    "QStackedWidget": [
+        {
+            "name": "mainPages",
+            "navigation": [
+                {
+                    "navigationButtons": [
+                        {
+                            "homeButton": "homePage",
+                            "trainButton": "trainPage",
+                            "resultsButton": "resultsPage",
+                            "systemTempButton": "systemPage",
+                            "settingsButton": "settingsPage"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

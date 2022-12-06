@@ -5,7 +5,9 @@ import hashlib
 # import pytorch_lightning
 # import models
 from sqlite3 import connect, Error
-from PySide6.QtWidgets import QApplication, QWidget
+from PySide2 import *
+from Custom_Widgets.Widgets import *
+from gui.main_gui import *
 import logging
 
 from gui.main import MainWindow
@@ -133,9 +135,8 @@ def main():
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
-
     # event loop
-    app.exec()
+    app.exec_()
 
 
 if __name__ == "__main__":
