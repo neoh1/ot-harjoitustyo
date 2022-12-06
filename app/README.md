@@ -1,13 +1,12 @@
 ### Gradient Descender
 Under construction....
 
-Login GUI can be seen with:
-`python src/gui/loginui.py`
-
-or
+GUI can be seen with:
 
 `poetry run invoke start`
 
+testing
+`poetry run invoke coverage`
 
 ## Docs
 [architecture](docs/architechture.md)
