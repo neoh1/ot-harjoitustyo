@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_interfaceIEdsgH.ui'
+# Form generated from reading UI file 'main_interfaceIEdsgH.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.3
+# Created by: Qt User Interface Compiler version 5.15.3
 ##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
+# WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
 from PySide2.QtCore import *
@@ -17,47 +17,48 @@ from Custom_Widgets.Widgets import QCustomStackedWidget
 
 import gui.res_rc
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName("MainWindow")
         MainWindow.resize(796, 610)
         MainWindow.setStyleSheet(u"*{\n"
-"  border: none;\n"
-"  background-color: transparent;\n"
-"  background: transparent;\n"
-"  padding: 0;\n"
-"  margin: 0;\n"
-"  color: #fff;\n"
-" }\n"
-"#centralwidget{\n"
-"  background-color: #aedbf0;\n"
-"}\n"
-"#leftMenuSubCont{\n"
-"  background-color: #2859A6;\n"
-"}\n"
-"#leftMenuSubCont QPushButton{\n"
-"  text-align: left;\n"
-"  padding: 4px 9px;\n"
-"}\n"
-"#leftPopMenuSubCont{\n"
-"  background-color: #567AC5;\n"
-"   padding: 0;\n"
-"  margin: 0;\n"
-"}\n"
-"#frame_4{\n"
-"  background-color: #567AC5;\n"
-"  border-top-right-radius: 8px;\n"
-"  border-bottom-right-radius: 8px;\n"
-"}\n"
-"#frame_7{\n"
-"  background-color: #16191d;\n"
-"  border-radius: 4px;\n"
-"  color: #fff;\n"
-"}\n"
-"#headerCont{\n"
-"  background-color: #2859A6;\n"
-"}")
+                                 "  border: none;\n"
+                                 "  background-color: transparent;\n"
+                                 "  background: transparent;\n"
+                                 "  padding: 0;\n"
+                                 "  margin: 0;\n"
+                                 "  color: #fff;\n"
+                                 " }\n"
+                                 "#centralwidget{\n"
+                                 "  background-color: #aedbf0;\n"
+                                 "}\n"
+                                 "#leftMenuSubCont{\n"
+                                 "  background-color: #2859A6;\n"
+                                 "}\n"
+                                 "#leftMenuSubCont QPushButton{\n"
+                                 "  text-align: left;\n"
+                                 "  padding: 4px 9px;\n"
+                                 "}\n"
+                                 "#leftPopMenuSubCont{\n"
+                                 "  background-color: #567AC5;\n"
+                                 "   padding: 0;\n"
+                                 "  margin: 0;\n"
+                                 "}\n"
+                                 "#frame_4{\n"
+                                 "  background-color: #567AC5;\n"
+                                 "  border-top-right-radius: 8px;\n"
+                                 "  border-bottom-right-radius: 8px;\n"
+                                 "}\n"
+                                 "#frame_7{\n"
+                                 "  background-color: #16191d;\n"
+                                 "  border-radius: 4px;\n"
+                                 "  color: #fff;\n"
+                                 "}\n"
+                                 "#headerCont{\n"
+                                 "  background-color: #2859A6;\n"
+                                 "}")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
@@ -87,12 +88,12 @@ class Ui_MainWindow(object):
         self.menuButton = QPushButton(self.frame)
         self.menuButton.setObjectName(u"menuButton")
         icon = QIcon()
-        icon.addFile(u":/icons/align-justify.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/icons/align-justify.svg",
+                     QSize(), QIcon.Normal, QIcon.Off)
         self.menuButton.setIcon(icon)
         self.menuButton.setIconSize(QSize(28, 28))
 
         self.horizontalLayout_2.addWidget(self.menuButton)
-
 
         self.verticalLayout_2.addWidget(self.frame, 0, Qt.AlignTop)
 
@@ -101,7 +102,8 @@ class Ui_MainWindow(object):
         sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.frame_2.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.frame_2.sizePolicy().hasHeightForWidth())
         self.frame_2.setSizePolicy(sizePolicy)
         self.frame_2.setFrameShape(QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QFrame.Raised)
@@ -139,7 +141,8 @@ class Ui_MainWindow(object):
         self.systemTempButton.setObjectName(u"systemTempButton")
         self.systemTempButton.setFont(font1)
         icon3 = QIcon()
-        icon3.addFile(u":/icons/thermometer.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon3.addFile(u":/icons/thermometer.svg",
+                      QSize(), QIcon.Normal, QIcon.Off)
         self.systemTempButton.setIcon(icon3)
         self.systemTempButton.setIconSize(QSize(28, 28))
 
@@ -155,10 +158,10 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_3.addWidget(self.resultsButton)
 
-
         self.verticalLayout_2.addWidget(self.frame_2, 0, Qt.AlignTop)
 
-        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
+        self.verticalSpacer = QSpacerItem(
+            20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout_2.addItem(self.verticalSpacer)
 
@@ -174,7 +177,8 @@ class Ui_MainWindow(object):
         self.settingsButton.setObjectName(u"settingsButton")
         self.settingsButton.setFont(font1)
         icon5 = QIcon()
-        icon5.addFile(u":/icons/settings.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon5.addFile(u":/icons/settings.svg",
+                      QSize(), QIcon.Normal, QIcon.Off)
         self.settingsButton.setIcon(icon5)
         self.settingsButton.setIconSize(QSize(28, 28))
 
@@ -190,12 +194,9 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_4.addWidget(self.logoutButton)
 
-
         self.verticalLayout_2.addWidget(self.frame_3, 0, Qt.AlignBottom)
 
-
         self.verticalLayout.addWidget(self.leftMenuSubCont)
-
 
         self.horizontalLayout.addWidget(self.leftMenuCont, 0, Qt.AlignLeft)
 
@@ -208,7 +209,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.leftPopMenuSubCont = QWidget(self.leftPopMenuCont)
         self.leftPopMenuSubCont.setObjectName(u"leftPopMenuSubCont")
-        sizePolicy.setHeightForWidth(self.leftPopMenuSubCont.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.leftPopMenuSubCont.sizePolicy().hasHeightForWidth())
         self.leftPopMenuSubCont.setSizePolicy(sizePolicy)
         self.leftPopMenuSubCont.setMinimumSize(QSize(170, 0))
         self.verticalLayout_6 = QVBoxLayout(self.leftPopMenuSubCont)
@@ -229,12 +231,13 @@ class Ui_MainWindow(object):
         self.hidePopMenuButton = QPushButton(self.frame_4)
         self.hidePopMenuButton.setObjectName(u"hidePopMenuButton")
         icon7 = QIcon()
-        icon7.addFile(u":/icons/arrow-left-circle.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon7.addFile(u":/icons/arrow-left-circle.svg",
+                      QSize(), QIcon.Normal, QIcon.Off)
         self.hidePopMenuButton.setIcon(icon7)
         self.hidePopMenuButton.setIconSize(QSize(28, 28))
 
-        self.horizontalLayout_3.addWidget(self.hidePopMenuButton, 0, Qt.AlignRight)
-
+        self.horizontalLayout_3.addWidget(
+            self.hidePopMenuButton, 0, Qt.AlignRight)
 
         self.verticalLayout_6.addWidget(self.frame_4)
 
@@ -293,9 +296,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_6.addWidget(self.popMenuPages)
 
-
         self.horizontalLayout_4.addWidget(self.leftPopMenuSubCont)
-
 
         self.horizontalLayout.addWidget(self.leftPopMenuCont, 0, Qt.AlignLeft)
 
@@ -304,7 +305,8 @@ class Ui_MainWindow(object):
         sizePolicy1 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
-        sizePolicy1.setHeightForWidth(self.mainBodyCont.sizePolicy().hasHeightForWidth())
+        sizePolicy1.setHeightForWidth(
+            self.mainBodyCont.sizePolicy().hasHeightForWidth())
         self.mainBodyCont.setSizePolicy(sizePolicy1)
         self.mainBodyCont.setStyleSheet(u"")
         self.verticalLayout_5 = QVBoxLayout(self.mainBodyCont)
@@ -331,7 +333,8 @@ class Ui_MainWindow(object):
         sizePolicy2 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         sizePolicy2.setHorizontalStretch(0)
         sizePolicy2.setVerticalStretch(0)
-        sizePolicy2.setHeightForWidth(self.alertButton.sizePolicy().hasHeightForWidth())
+        sizePolicy2.setHeightForWidth(
+            self.alertButton.sizePolicy().hasHeightForWidth())
         self.alertButton.setSizePolicy(sizePolicy2)
         icon8 = QIcon()
         icon8.addFile(u":/icons/bell.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -340,8 +343,8 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_7.addWidget(self.alertButton)
 
-
-        self.horizontalLayout_5.addWidget(self.frame_5, 0, Qt.AlignRight|Qt.AlignVCenter)
+        self.horizontalLayout_5.addWidget(
+            self.frame_5, 0, Qt.AlignRight | Qt.AlignVCenter)
 
         self.frame_6 = QFrame(self.headerCont)
         self.frame_6.setObjectName(u"frame_6")
@@ -379,9 +382,8 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_6.addWidget(self.closeBtn)
 
-
-        self.horizontalLayout_5.addWidget(self.frame_6, 0, Qt.AlignRight|Qt.AlignVCenter)
-
+        self.horizontalLayout_5.addWidget(
+            self.frame_6, 0, Qt.AlignRight | Qt.AlignVCenter)
 
         self.verticalLayout_5.addWidget(self.headerCont, 0, Qt.AlignTop)
 
@@ -390,7 +392,8 @@ class Ui_MainWindow(object):
         sizePolicy3 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
         sizePolicy3.setHorizontalStretch(0)
         sizePolicy3.setVerticalStretch(0)
-        sizePolicy3.setHeightForWidth(self.mainBodyContent.sizePolicy().hasHeightForWidth())
+        sizePolicy3.setHeightForWidth(
+            self.mainBodyContent.sizePolicy().hasHeightForWidth())
         self.mainBodyContent.setSizePolicy(sizePolicy3)
         self.verticalLayout_11 = QVBoxLayout(self.mainBodyContent)
         self.verticalLayout_11.setSpacing(0)
@@ -468,7 +471,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_12.addWidget(self.mainPages)
 
-
         self.verticalLayout_11.addWidget(self.mainContentsCont)
 
         self.popupCont = QCustomSlideMenu(self.mainBodyContent)
@@ -484,7 +486,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_19.setContentsMargins(9, 9, 9, 9)
         self.frame_7 = QFrame(self.popupSubCont)
         self.frame_7.setObjectName(u"frame_7")
-        sizePolicy.setHeightForWidth(self.frame_7.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.frame_7.sizePolicy().hasHeightForWidth())
         self.frame_7.setSizePolicy(sizePolicy)
         self.frame_7.setMaximumSize(QSize(16777215, 500))
         self.frame_7.setFrameShape(QFrame.StyledPanel)
@@ -495,30 +498,30 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
         self.label_12 = QLabel(self.frame_7)
         self.label_12.setObjectName(u"label_12")
-        sizePolicy1.setHeightForWidth(self.label_12.sizePolicy().hasHeightForWidth())
+        sizePolicy1.setHeightForWidth(
+            self.label_12.sizePolicy().hasHeightForWidth())
         self.label_12.setSizePolicy(sizePolicy1)
         self.label_12.setAlignment(Qt.AlignCenter)
 
-        self.horizontalLayout_8.addWidget(self.label_12, 0, Qt.AlignHCenter|Qt.AlignVCenter)
+        self.horizontalLayout_8.addWidget(
+            self.label_12, 0, Qt.AlignHCenter | Qt.AlignVCenter)
 
         self.closeAlertButton = QPushButton(self.frame_7)
         self.closeAlertButton.setObjectName(u"closeAlertButton")
         icon12 = QIcon()
-        icon12.addFile(u":/icons/x-square.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon12.addFile(u":/icons/x-square.svg",
+                       QSize(), QIcon.Normal, QIcon.Off)
         self.closeAlertButton.setIcon(icon12)
         self.closeAlertButton.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_8.addWidget(self.closeAlertButton, 0, Qt.AlignRight|Qt.AlignTop)
-
+        self.horizontalLayout_8.addWidget(
+            self.closeAlertButton, 0, Qt.AlignRight | Qt.AlignTop)
 
         self.verticalLayout_19.addWidget(self.frame_7)
 
-
         self.verticalLayout_20.addWidget(self.popupSubCont)
 
-
         self.verticalLayout_11.addWidget(self.popupCont)
-
 
         self.verticalLayout_5.addWidget(self.mainBodyContent)
 
@@ -539,9 +542,8 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_9.addWidget(self.sizeGrip)
 
-
-        self.verticalLayout_5.addWidget(self.footerCont, 0, Qt.AlignRight|Qt.AlignBottom)
-
+        self.verticalLayout_5.addWidget(
+            self.footerCont, 0, Qt.AlignRight | Qt.AlignBottom)
 
         self.horizontalLayout.addWidget(self.mainBodyCont)
 
@@ -553,67 +555,97 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-#if QT_CONFIG(tooltip)
-        self.menuButton.setToolTip(QCoreApplication.translate("MainWindow", u"Menu", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate(
+            "MainWindow", u"MainWindow", None))
+# if QT_CONFIG(tooltip)
+        self.menuButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Menu", None))
 #endif // QT_CONFIG(tooltip)
         self.menuButton.setText("")
-#if QT_CONFIG(tooltip)
-        self.homeButton.setToolTip(QCoreApplication.translate("MainWindow", u"Home", None))
+# if QT_CONFIG(tooltip)
+        self.homeButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Home", None))
 #endif // QT_CONFIG(tooltip)
-        self.homeButton.setText(QCoreApplication.translate("MainWindow", u"Home", None))
-#if QT_CONFIG(tooltip)
-        self.trainButton.setToolTip(QCoreApplication.translate("MainWindow", u"Train", None))
+        self.homeButton.setText(
+            QCoreApplication.translate("MainWindow", u"Home", None))
+# if QT_CONFIG(tooltip)
+        self.trainButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Train", None))
 #endif // QT_CONFIG(tooltip)
-        self.trainButton.setText(QCoreApplication.translate("MainWindow", u"Train", None))
-#if QT_CONFIG(tooltip)
-        self.systemTempButton.setToolTip(QCoreApplication.translate("MainWindow", u"System status", None))
+        self.trainButton.setText(
+            QCoreApplication.translate("MainWindow", u"Train", None))
+# if QT_CONFIG(tooltip)
+        self.systemTempButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"System status", None))
 #endif // QT_CONFIG(tooltip)
-        self.systemTempButton.setText(QCoreApplication.translate("MainWindow", u"Loads", None))
-#if QT_CONFIG(tooltip)
-        self.resultsButton.setToolTip(QCoreApplication.translate("MainWindow", u"Monitor results", None))
+        self.systemTempButton.setText(
+            QCoreApplication.translate("MainWindow", u"Loads", None))
+# if QT_CONFIG(tooltip)
+        self.resultsButton.setToolTip(QCoreApplication.translate(
+            "MainWindow", u"Monitor results", None))
 #endif // QT_CONFIG(tooltip)
-        self.resultsButton.setText(QCoreApplication.translate("MainWindow", u"Results", None))
-#if QT_CONFIG(tooltip)
-        self.settingsButton.setToolTip(QCoreApplication.translate("MainWindow", u"Settings", None))
+        self.resultsButton.setText(
+            QCoreApplication.translate("MainWindow", u"Results", None))
+# if QT_CONFIG(tooltip)
+        self.settingsButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Settings", None))
 #endif // QT_CONFIG(tooltip)
-        self.settingsButton.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
-#if QT_CONFIG(tooltip)
-        self.logoutButton.setToolTip(QCoreApplication.translate("MainWindow", u"Logout", None))
+        self.settingsButton.setText(
+            QCoreApplication.translate("MainWindow", u"Settings", None))
+# if QT_CONFIG(tooltip)
+        self.logoutButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Logout", None))
 #endif // QT_CONFIG(tooltip)
-        self.logoutButton.setText(QCoreApplication.translate("MainWindow", u"Logout", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Menu", None))
-#if QT_CONFIG(tooltip)
-        self.hidePopMenuButton.setToolTip(QCoreApplication.translate("MainWindow", u"Close menu", None))
+        self.logoutButton.setText(
+            QCoreApplication.translate("MainWindow", u"Logout", None))
+        self.label.setText(QCoreApplication.translate(
+            "MainWindow", u"Menu", None))
+# if QT_CONFIG(tooltip)
+        self.hidePopMenuButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Close menu", None))
 #endif // QT_CONFIG(tooltip)
         self.hidePopMenuButton.setText("")
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
-        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Train", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Loads", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Results", None))
+        self.label_2.setText(QCoreApplication.translate(
+            "MainWindow", u"Settings", None))
+        self.label_5.setText(QCoreApplication.translate(
+            "MainWindow", u"Train", None))
+        self.label_4.setText(QCoreApplication.translate(
+            "MainWindow", u"Loads", None))
+        self.label_3.setText(QCoreApplication.translate(
+            "MainWindow", u"Results", None))
         self.alertButton.setText("")
-#if QT_CONFIG(tooltip)
-        self.minBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Minimize window", None))
+# if QT_CONFIG(tooltip)
+        self.minBtn.setToolTip(QCoreApplication.translate(
+            "MainWindow", u"Minimize window", None))
 #endif // QT_CONFIG(tooltip)
         self.minBtn.setText("")
-#if QT_CONFIG(tooltip)
-        self.restoreBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Full screen", None))
+# if QT_CONFIG(tooltip)
+        self.restoreBtn.setToolTip(QCoreApplication.translate(
+            "MainWindow", u"Full screen", None))
 #endif // QT_CONFIG(tooltip)
         self.restoreBtn.setText("")
-#if QT_CONFIG(tooltip)
-        self.closeBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Close app", None))
+# if QT_CONFIG(tooltip)
+        self.closeBtn.setToolTip(QCoreApplication.translate(
+            "MainWindow", u"Close app", None))
 #endif // QT_CONFIG(tooltip)
         self.closeBtn.setText("")
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"Home", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Train", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Loads", None))
-        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Results", None))
-        self.label_10.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
-        self.label_11.setText(QCoreApplication.translate("MainWindow", u"Logout", None))
-        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Notification", None))
-#if QT_CONFIG(tooltip)
-        self.closeAlertButton.setToolTip(QCoreApplication.translate("MainWindow", u"Close", None))
+        self.label_6.setText(QCoreApplication.translate(
+            "MainWindow", u"Home", None))
+        self.label_7.setText(QCoreApplication.translate(
+            "MainWindow", u"Train", None))
+        self.label_8.setText(QCoreApplication.translate(
+            "MainWindow", u"Loads", None))
+        self.label_9.setText(QCoreApplication.translate(
+            "MainWindow", u"Results", None))
+        self.label_10.setText(QCoreApplication.translate(
+            "MainWindow", u"Settings", None))
+        self.label_11.setText(QCoreApplication.translate(
+            "MainWindow", u"Logout", None))
+        self.label_12.setText(QCoreApplication.translate(
+            "MainWindow", u"Notification", None))
+# if QT_CONFIG(tooltip)
+        self.closeAlertButton.setToolTip(
+            QCoreApplication.translate("MainWindow", u"Close", None))
 #endif // QT_CONFIG(tooltip)
         self.closeAlertButton.setText("")
     # retranslateUi
-

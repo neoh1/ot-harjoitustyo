@@ -1,12 +1,17 @@
 ### Gradient Descender
 Under construction....
 
+It will be a GUI for deep learning and data-analysis use with system checks.
+
 GUI can be seen with:
 
 `poetry run invoke start`
 
-testing
+Testing:
 `poetry run invoke coverage`
+
+Pylint:
+`poetry run invoke pylinter`
 
 ## Docs
 [architecture](docs/architechture.md)
