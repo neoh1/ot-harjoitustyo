@@ -3,7 +3,7 @@
 ## UI
 
 Currently login screen
-
+Main GUI with button functionality and animations
 
 ## Application logic
 ```mermaid

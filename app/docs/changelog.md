@@ -12,3 +12,6 @@
 ## Week 3
 - PySide research
 - Login screen design ready, done with Qt Designer. Needs implementation
+
+## Week 4
+- Main GUI skeleton done, need to just connect the buttons and functionality
