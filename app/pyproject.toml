@@ -11,6 +11,8 @@ python = ">=3.8,<3.11"
 invoke = "^1.7.3"
 qt-pyqt-pyside-custom-widgets = "^0.6.3"
 pyside2 = "^5.15.2.1"
+kids = "^1.0.4"
+kids-cache = "^0.0.7"
 
 
 [tool.poetry.group.dev.dependencies]
