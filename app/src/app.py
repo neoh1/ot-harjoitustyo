@@ -1,15 +1,9 @@
 import os
 import sys
 import hashlib
-# import torch
-# import pytorch_lightning
-# import models
-from sqlite3 import connect, Error
-from PySide2 import *
-from Custom_Widgets.Widgets import *
-from gui.main_gui import *
 import logging
-
+from sqlite3 import connect, Error
+from PySide2.QtWidgets import QApplication
 from gui.main import MainWindow
 
 

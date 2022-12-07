@@ -8,6 +8,7 @@ GUI can be seen with:
 `poetry run invoke start`
 
 Testing:
+`poetry run invoke test`
 `poetry run invoke coverage`
 
 Pylint:

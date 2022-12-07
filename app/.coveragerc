@@ -4,4 +4,5 @@ omit = src/**/__init__.py
        src/tests/**
        src/models/**
        src/data/**
+       src/gui/**
        src/models/base_test.py

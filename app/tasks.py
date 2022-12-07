@@ -19,6 +19,10 @@ def coverage_report(ctx):
 def formatter(ctx):
     ctx.run("autopep8 --in-place --recursive src")
 
+@task 
+def test(ctx):
+    ctx.run("pytest src")
+
 @task
 def pylinter(ctx):
     ctx.run("pylint src")
