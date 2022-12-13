@@ -673,7 +673,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.11"
-content-hash = "332915f686b4f612a96accfa7619c90eb818dc5d436eabbedf87d64184cf647e"
+content-hash = "ff63d50342cebb269caa3c96d89e3212f126a63b8f75a5083462a3d3fea39bad"
 
 [metadata.files]
 astroid = [

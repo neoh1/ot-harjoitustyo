@@ -13,6 +13,7 @@ qt-pyqt-pyside-custom-widgets = "^0.6.3"
 pyside2 = "^5.15.2.1"
 kids = "^1.0.4"
 kids-cache = "^0.0.7"
+matplotlib = "^3.6.2"
 
 
 [tool.poetry.group.dev.dependencies]
