@@ -17,11 +17,11 @@ Pylint:
 ## Docs
 [architecture](docs/architechture.md)
 
-[changelog](changelog.md)
+[changelog](docs/changelog.md)
 
-[requirementspecification](requirementspecification.md)
+[requirementspecification](docs/requirementspecification.md)
 
-[timemanagement](timemanagement.md)
+[timemanagement](docs/timemanagement.md)
 
 
 ## References

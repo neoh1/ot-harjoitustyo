@@ -1,11 +1,12 @@
 import os
 import sys
 import hashlib
-import logging
+from base_logger import new_logger
 from sqlite3 import connect, Error
 from PySide2.QtWidgets import QApplication
 from gui.main import MainWindow
 
+logger = new_logger(name='main')
 
 def create_connection(func):
     """sqlite3 database wrapper"""
@@ -134,12 +135,4 @@ def main():
 
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
-    stream_logs = logging.StreamHandler(sys.stdout)
-    file_logs = logging.FileHandler('src/logs/main_errors.log')
-    formatter = logging.Formatter('%(asctime)s - %(message)s')
-    for logtype in [stream_logs, file_logs]:
-        logtype.setFormatter(formatter)
-        logger.addHandler(logtype)
-    logger.setLevel(logging.INFO)
     sys.exit(main())
