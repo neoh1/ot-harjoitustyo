@@ -15,3 +15,6 @@
 
 ## Week 4
 - Main GUI skeleton done, need to just connect the buttons and functionality
+
+## Week 5
+  Added utils for deeplearning
