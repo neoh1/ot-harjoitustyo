@@ -6,7 +6,7 @@
 | 20.11 |  7    | Basic user account database implementation, PySide research, PL testing  |
 |   29.11 | 7    | PySide6 research, implementation of login design |
 |  6.12     |  8   | Implementation of main GUI using Qt Designer |
-|       |     | määrittelydokumentti |
+13.12|       |  1   | hough lines util, unpushed SQL alchemy orm unfinished queries |
 |  |     | arkkitehtuurikuvaus |
 |       |     | testaus |
 |   |     | koodin refaktorointia |
